@@ -1,0 +1,11 @@
+{
+  "conflict_code": "E_CONFLICT_BUDGET",
+  "budget": 3,
+  "attempts": [
+    {"tx": "t0", "read": ["k0"], "write": ["k0"], "version": 1},
+    {"tx": "t1", "read": ["k1"], "write": ["k2"], "version": 1},
+    {"tx": "t2", "read": ["k0"], "write": ["k3"], "version": 1},
+    {"tx": "t1", "read": ["k1"], "write": ["k2"], "version": 1}
+  ],
+  "keys": ["k0", "k1", "k2", "k3"]
+}
